@@ -1,0 +1,15 @@
+{
+  "name": "sieger-plc-gateway",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Modbus TCP gateway between the SIEGER OHC PLC and the Master Mind web page, plus a Modbus PLC simulator for testing.",
+  "scripts": {
+    "gateway": "node gateway.js",
+    "simulator": "node plc-simulator.js"
+  },
+  "dependencies": {
+    "modbus-serial": "^8.0.25",
+    "ws": "^8.22.0"
+  }
+}
